@@ -1,0 +1,12 @@
+Source: ros-jade-rplidar-python
+Section: misc
+Priority: extra
+Maintainer: turtlebot2 <turtlebot2@todo.todo>
+Build-Depends: debhelper (>= 9.0.0), ros-jade-catkin, ros-jade-geometry-msgs, ros-jade-message-generation, ros-jade-roslaunch, ros-jade-rospy, ros-jade-std-msgs
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-jade-rplidar-python
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-jade-geometry-msgs, ros-jade-message-runtime, ros-jade-roslaunch, ros-jade-rospy, ros-jade-std-msgs
+Description: The rplidar_python package
